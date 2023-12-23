@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+       .table-contain{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;   
+       }
+        .sub1 h3{
+            padding: 0.7rem;
+            text-align: center;
+        }
+
+        .main_container{
+            border: 5px solid rgb(0, 0, 0);
+            display: grid;
+        }
+
+        th{
+            border: 1px solid black;
+        }
+        td{
+            border: 1px solid black;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 5px 0px;
+        }
+       .contains{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            padding: 1.2rem;
+            gap: 5px; 
+        }
+        .sub3{
+            border: 1px solid black;
+            margin: 1px;
+        }
+        .info{
+            display: grid;
+            gap: .7rem;
+        }
+        .input-type{
+            display: grid;
+            gap: .7rem;
+            
+        }
+
+   
+    </style>
+</head>
+<body>
+    <div class="table-contain">
+        <h2 style="padding: 0 35%; text-align:center; line-height:2rem ">CC4057 Introduction to Information
+            Systems</h2>
+            <h2 style="text-align: center; padding: 1rem">Lab Work - Week 6</h2>
+
+            <p style="padding: 5px 22%; line-height:2rem; font-size:1.4rem">Reproduce the following webpage using the tags learnt in the lecture and tutorial
+                classes.</p>
+               
+
+   <div class="main_container">
+    <div class="sub1" style="border: 1px solid black; margin:1px">
+        <h3>Information System-Lab Works 16</h3>
+    </div>
+    <div class="sub2">
+        <table > 
+                <tr>
+                    <th style="padding: 0.5rem 4rem;"><h3><i>Article 1</i></h3>
+                        <p style="font-size: 14px; font-weight:400; padding:7px">Hello world this new text for article one</p>
+                    </th>
+                    <th style="padding: 0.5rem 4rem; display:flex; flex-direction:column; justify-content:center; align-items:center;   "><h3 style=" width:fit-content; background-color:yellow;">Article 1</h3>
+                        <p style="font-size: 14px; font-weight:400;padding:7px ">Hello world this new text for article one</p></th>
+                </tr>
+                <tr>
+                    <td style="padding: 0.5rem 1rem;  text-align:center; text-decoration:underline; font-weight:600">Ordered List</td>
+                    <td style="padding: 0.5rem 1rem; text-align:center; text-decoration:line-through;font-weight:600">Unordered List</td>
+                </tr>
+                <tr>
+                    <td style="padding:1rem 2rem;">
+                        <ol>
+                            <li>Line 1</li>
+                            <li>Line 2</li>
+                            <li >Line 3
+                                <ol type="i" style="padding: 0 2rem;">
+                                    <li>Line 1</li>
+                                    <li>Line 2</li>
+                                    <li>Line 3</li>
+                                </ol>
+                            </li>
+                            <li>line 4</li>
+                        </ol>
+                    </td>
+                    <td style="padding:1rem 2rem;">
+                        <ul>
+                            <li>Line 1</li>
+                            <li>Line 2</li>
+                            <li >Line 3
+                                <ul type = "arrow" style="padding: 0 2rem;">
+                                    <li>Line 1</li>
+                                    <li>Line 2</li>
+                                    <li>Line 3</li>
+                                </ul>
+                            </li>
+                            <li>Line 4</li>
+                        </ul>
+                    </td>
+                </tr>
+                
+        </table>
+    </div>
+
+        <div class="sub3" style="padding: 0 ;">
+            <form action="#">
+                <div class="contains">
+                    <div class="info">
+                        <p>First Name:</p>
+                        <p>Last Name:</p>
+                        <p>Email:</p>
+                    </div>
+                    <div class="input-type">
+                        <input type="text">
+                        <input type="text">
+                        <input type="email">
+                    </div>
+                </div>
+                <button>Submit</button>
+            </form>
+        </div>
+    </div>
+   <div class="description" style=" width: 56%;">
+    <p style="padding: 1.2rem 0; font:italic; font-size:1.4rem"><i>*use tables for setting the layout of the document</i></p>
+   <p style="padding: 1.2rem 0; font:italic; font-size:1.4rem;"><i>**note that the components of the form are also formatted by using tables</p>
+   </div></i></p>
+   
+</div>
+</body>
+</html>
